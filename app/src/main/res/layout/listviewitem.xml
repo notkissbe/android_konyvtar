@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:focusable="true"
+    android:clickable="true">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_margin="20sp"
+        android:clickable="true">
+
+        <TextView
+            android:id="@+id/cimText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="cim"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/szerzoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="szerzo"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/oldalszamText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="oldalszam"
+            android:textSize="20sp"></TextView>
+
+        <Button
+            android:id="@+id/torlesGomb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cardView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:text="torles"
+            android:textSize="20sp"
+            android:focusable="false"
+            android:clickable="false"></Button>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
